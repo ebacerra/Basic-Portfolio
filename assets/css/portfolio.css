@@ -1,15 +1,16 @@
 /* First homework */
 Body {
-    width: 960px;
+    width: 768px;
+    height: 640px
     background-color: #ffffff
 }
 hr {
-    width: 700px;
+    width: 650px;
     margin-top: 70px;
 }
 .header {
-    margin-left: 12%;
-    padding: 40px;
+    margin-left: 8%;
+    padding: 15px;
     width: 200px;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -29,8 +30,8 @@ hr {
     font-stretch: expanded;
     font-kerning: normal;
     position: relative;
-    left: 700px;
-    bottom: 15px;
+    left: 540px;
+    bottom: 30px;
 }
 a:link:hover {
     color:rgb(190, 123, 253);
@@ -41,7 +42,7 @@ a:link {
 }
 .pattern {
     height: 500px;
-    width: 100%;  
+    width: 768px;  
     background: url(../images/circles-light.png);
 }
 .something {
@@ -57,47 +58,30 @@ a:link {
     
 }
 .whitebox {
-        width: 815px;
-        height: 450px;
-        background: #ffffff;
-        border: #777777;
-        display: inline;
-        position: absolute;
-        left: 70px;
-        float: left;
-        margin-top: 3%;
-    }
-p {
     width: 700px;
-    height: 400px;
-    color: #777777;
-    font-family: Calibri;
-    display: block;
+    height: 550px;
+    background: #ffffff;
+    border: #777777;
+    display: inline;
     position: absolute;
-    left: 55px;
-    top: 65px;
-    margin-top: 20px;
-    text-align: left;
-    font-size: 16px;
-    letter-spacing: 0.3px;
-    line-height: 30px
-} 
-p img{
-    margin-right: 20px;
-    margin-bottom: 10px;
+    left: 40px;
     float: left;
-    position: relative;
-
+    margin-top: 3%;
+}
+#box1 {
+    width: 200px;
+    height: 200px;
+    
 }
 .bluebar {
-    width: 100%;
+    width: 768px;
     height: 7px;
     background-color: #4aaaa5; 
     position: relative;
 }
 .box {
-    width: 960px;
-    height: 100px;
+    width: 768px;
+    height: 50px;
     background-color: #666666;
     float: left;
     font-size: 15px;
@@ -105,11 +89,11 @@ p img{
     font-kerning: normal;
     display: inline;
 }
-.box h6 {
+/* .box h6 {
     text-align: center;
     position: relative;
     top: 80px;
-    font-size: 10px;
+    font-size: 10px; */
 }
 .clearfix::after {
     content: "";
